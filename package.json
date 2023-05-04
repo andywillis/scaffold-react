@@ -2,11 +2,14 @@
   "name": "boilerplate-react",
   "private": true,
   "version": "0.0.0",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Andy Willis",
   "type": "module",
   "engines": {
     "node": "^18"
   },
   "scripts": {
+    "sc": "cspell --config cspell.config.js",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
@@ -14,30 +17,30 @@
   },
   "dependencies": {
     "classnames": "^2.3.2",
-    "open-props": "^1.5.6",
+    "open-props": "^1.5.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.10.0"
+    "react-router-dom": "^6.11.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.21.3",
-    "@babel/eslint-parser": "^7.21.3",
+    "@babel/core": "^7.21.8",
+    "@babel/eslint-parser": "^7.21.8",
     "@babel/plugin-syntax-import-assertions": "^7.20.0",
     "@babel/preset-react": "7.18.6",
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "14.0.0",
     "@testing-library/user-event": "14.4.3",
-    "@vitejs/plugin-react": "^3.1.0",
-    "eslint": "^8.37.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.39.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "jsdom": "21.1.1",
-    "vite": "^4.2.1",
+    "jsdom": "22.0.0",
+    "vite": "^4.3.4",
     "vite-plugin-compression": "^0.5.1",
     "vite-plugin-terminal": "^1.1.0",
-    "vitest": "^0.29.8"
+    "vitest": "^0.31.0"
   }
 }
